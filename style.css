@@ -120,7 +120,12 @@ body{
 }
 
 @media (max-width: 575.98px) {
-    .item{
+    .kotak{
         margin: auto;
+    }
+    
+    .title-item
+    {
+        text-align: center;
     }
 }
