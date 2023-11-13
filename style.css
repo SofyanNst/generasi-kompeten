@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+.text-red{
+    color: #F23030;
+}
+
+body{
+    font-family: 'Gabarito', sans-serif;
+}
+
+.cover{
+    /* height: 400px; */
+    border-radius: 0px 0px 60px 60px;
+    background: linear-gradient(0deg, #F0C92E -22.85%, rgba(255, 255, 255, 0.58) 62.33%);
+}
+
+.nav-link{
+    color: #F0C92E;
+}
+
+.btn-yellow
+{
+    border-radius: 10px;
+    background: #F3C731;
+    display: inline-flex;
+    padding: 9px 32px 8px 29px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.text-kuning
+{
+    color: #F3C731;
+
+}
+
+.btn-putih{
+    /* background-color: #fff; */
+    border-radius: 20px;
+    background: #FFF;
+    display: inline-flex;
+    padding: 11px 59px 12px 60px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.btn-kuning{
+    /* background-color: #fff; */
+    border-radius: 20px;
+    background: #F3C82B;
+    display: inline-flex;
+    padding: 11px 59px 12px 60px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.btn-kuning:hover{
+    background: #e6bc27;
+
+}
+
+.kotak{
+    border-radius: 20px;
+    border: 1px solid #F0C92E;  
+    box-shadow: 0px 4px 4px 0px #F2CB05;
+    display: inline-flex;
+    /* padding: 17px 154px 18px 20px; */
+    align-items: center;
+}
+
+.body-paket {
+    height: 100px;
+    border: 1px solid #F2CB05; 
+    border-radius: 00px 0px 30px 30px; 
+    height: 200px;
+}
+
+.header-paket{
+    /* height: 50px; */
+    background-color: #F2CB05;
+    border-radius: 30px 30px 0px 0px; 
+
+}
+
+.btn-kuning{
+    background-color: #F2CB05;
+    color: #fff;
+    padding: 6px;
+    width: 160px;
+    border-radius: 10px; 
+}
+
+.testimoni{
+    background-color: #F2CB05;
+    /* height: 200px; */
+}
+
+.item-testi{
+    height: 200px;
+    background-color: #FFF;
+    border: 5px solid #EE8505;
+    /* background-color: aqua; */
+    margin-top: -50px;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.gambar-item-testi{
+    z-index: 1;
+    /* background-color: #fff; */
+    /* border: 1px solid ; */
+}
+
+.gambar-item-testi img{
+    border-radius: 50%;
+    border: 5px solid #EE8505;
+}
+
+@media (max-width: 575.98px) {
+    .item{
+        margin: auto;
+    }
+}
